@@ -42,25 +42,22 @@ li{
 }
 
 .headerBody{
+    display:flex;
+    justify-content: space-between;
     padding: 30px 10%;
 }
 
 .headerBody h1{
     font-size:48px;
+    margin-bottom:20px;
     font-weight:bold;
 }
 
 .headerBody p{
     font-size:18px;
-    margin-bottom:10px;
+    margin-bottom:20px;
 }
 
-.headerBody img{
-    float:right;
-    border-radius:10px;
-    height:30vh;
-    object-fit:fill;
-}
 
 .buttons{
     border:none;
@@ -69,4 +66,32 @@ li{
     padding:12px;
     border-radius:12px;
     background-color: #3882f6;
+}
+
+.bodyRight img{
+    border-radius:20px;
+    height:38vh;
+    display: flex;
+    margin-left: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.photos{
+    padding:30px 10%;
+}
+
+.photos-heading h2{
+    text-align: center;
+    font-size: 36px;
+    margin-top:12px;
+    margin-bottom:12px;
+    font-weight: bolder;
+}
+
+.photo-collection img{
+    display: flex;
+    justify-content: space-around;
+    height:150px;
+    width: 150px;
 }
