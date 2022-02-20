@@ -4,6 +4,11 @@
     padding:0;
 }
 
+body{
+    background-color: #7ee8fa;
+    background: linear-gradient(315deg, #7ee8fa 0%, #80ff72 74%);
+}
+
 i.material-icons{
     font-size:35px;
 }
@@ -50,12 +55,13 @@ li{
 .headerBody h1{
     font-size:48px;
     margin-bottom:20px;
-    font-weight:bold;
+    font-weight:bolder;
 }
 
 .headerBody p{
-    font-size:18px;
+    font-size:24px;
     margin-bottom:20px;
+    font-weight: bold;
 }
 
 
@@ -65,7 +71,12 @@ li{
     font-weight: 500;
     padding:12px;
     border-radius:12px;
+    font-size: 20px;
     background-color: #3882f6;
+}
+
+.buttons:hover{
+    cursor: pointer;
 }
 
 .bodyRight img{
@@ -78,7 +89,8 @@ li{
 }
 
 .photos{
-    padding:30px 10%;
+    padding: 23px 10%;
+    background-color: white;
 }
 
 .photos-heading h2{
@@ -89,9 +101,77 @@ li{
     font-weight: bolder;
 }
 
-.photo-collection img{
-    display: flex;
-    justify-content: space-around;
-    height:150px;
-    width: 150px;
+.photo-collection{
+    display:flex;
+    justify-content:space-around;
 }
+
+.photo-collection img{
+    border-radius:5px 5px 0 0;
+    height:170px;
+    width: 100%;
+}
+
+.card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    width: 20%;
+    border-radius: 5px;
+}
+  
+.card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
+    cursor: pointer;
+}
+
+#majestic-desc, #gold-desc, #forest-desc, #sub-desc{
+      padding: 2px 16px;
+}
+
+.inspirationalSign{
+    padding: 40px 10%;
+    background-color: #E5E7EB;
+    font-size: 36px;
+}
+
+.inspirationalSign p{
+    float:right;
+    text-decoration: underline;
+}
+
+.inspirationalSign blockquote{
+    font-style: italic;
+    font-weight: 100;
+}
+
+.sign-up{
+    text-align:center;
+    padding-top:70px;
+}
+
+.sign-up h2{
+    padding-bottom:20px;
+}
+
+.sign-up button{
+    padding: 20px 5px 20px 5px;
+    color:white;
+    border-style: none;
+    border-radius:20px;
+    width:150px;
+    font-size: large;
+    background-color: #3882f6;
+}
+
+.sign-up button:hover{
+    cursor: pointer;
+}
+
+.footerLanding{
+    text-align:center;
+    padding:30px;
+    font-size: 25px;
+}
+
+
+  
