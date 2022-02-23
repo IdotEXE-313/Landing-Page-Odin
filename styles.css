@@ -176,18 +176,6 @@ li{
     font-size: 25px;
 }
 
-@media (max-width: 576px){
-    .bodyRight img{
-        display:none;
-    }
-}
-
-@media (max-width: 768px){
-    .bodyRight img{
-        display:none;
-    }
-}
-
 @media(max-width:1000px){
     .bodyRight img{
         display:none;
