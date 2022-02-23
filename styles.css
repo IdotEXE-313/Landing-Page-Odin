@@ -81,6 +81,7 @@ li{
 
 .bodyRight img{
     max-width:100%;
+    object-fit:scale-down;
     border-radius:20px;
     height:38vh;
     display: flex;
@@ -174,6 +175,7 @@ li{
     padding:30px;
     font-size: 25px;
 }
+
 
 
   
