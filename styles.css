@@ -188,4 +188,10 @@ li{
     }
 }
 
+@media(max-width:1000px){
+    .bodyRight img{
+        display:none;
+    }
+}
+
   
